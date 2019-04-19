@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Verify India website global footer links",
+        "description": "",
+        "id": "global-footer-links-test-on-world-wide-india-site;verify-india-website-global-footer-links;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4409754854,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have navigated to \"India\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 20
+                }
+              ],
+              "location": "GlobalFooterLinks.i_have_navigated_to_site(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62010614,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I scroll to the footer section at the bottom",
+            "match": {
+              "location": "GlobalFooterLinks.i_scroll_to_the_footer_section_at_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3630865530,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the footer \"Banking \u0026 Financial Services\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Banking \u0026 Financial Services\"",
+                  "offset": 22
+                }
+              ],
+              "location": "GlobalFooterLinks.i_click_on_the_footer_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51348495,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the loaded page URL is \"https://www.cognizant.com/banking-financial-technology-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cognizant.com/banking-financial-technology-solutions\"",
+                  "offset": 23
+                }
+              ],
+              "location": "GlobalFooterLinks.the_loaded_page_URL_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify India website global footer links",
+        "description": "",
+        "id": "global-footer-links-test-on-world-wide-india-site;verify-india-website-global-footer-links;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184927626,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have navigated to \"India\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 20
+                }
+              ],
+              "location": "GlobalFooterLinks.i_have_navigated_to_site(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101864136,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I scroll to the footer section at the bottom",
+            "match": {
+              "location": "GlobalFooterLinks.i_scroll_to_the_footer_section_at_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084238246,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the footer \"Communications\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Communications\"",
+                  "offset": 22
+                }
+              ],
+              "location": "GlobalFooterLinks.i_click_on_the_footer_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79038600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the loaded page URL is \"https://www.cognizant.com/csp-technology-solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cognizant.com/csp-technology-solutions\"",
+                  "offset": 23
+                }
+              ],
+              "location": "GlobalFooterLinks.the_loaded_page_URL_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Global Footer links test on World Wide India site",
+    "description": "\tAs an end user I want to browse India website, \n\tscroll to global footer links,\n\tTo make sure there are no broken links",
+    "id": "global-footer-links-test-on-world-wide-india-site",
+    "keyword": "Feature",
+    "uri": "file:features/india/global_footer_links.feature",
+    "tags": []
+  }
+]]

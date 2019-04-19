@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.607942">
+<testcase classname="Global Footer links test on World Wide India site" name="Verify India website global footer links" time="8.157709">
+<system-out><![CDATA[Given I have navigated to "India" site......................................passed
+And I scroll to the footer section at the bottom............................passed
+When I click on the footer "Banking & Financial Services" link..............passed
+Then the loaded page URL is "https://www.cognizant.com/banking-financial-technology-solutions".passed
+]]></system-out>
+</testcase>
+<testcase classname="Global Footer links test on World Wide India site" name="Verify India website global footer links 2" time="4.450233">
+<system-out><![CDATA[Given I have navigated to "India" site......................................passed
+And I scroll to the footer section at the bottom............................passed
+When I click on the footer "Communications" link............................passed
+Then the loaded page URL is "https://www.cognizant.com/csp-technology-solutions".passed
+]]></system-out>
+</testcase>
+</testsuite>
