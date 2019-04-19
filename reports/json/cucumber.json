@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4409754854,
+              "duration": 3072784234,
               "status": "passed"
             },
             "line": 8,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 62010614,
+              "duration": 2587479776,
               "status": "passed"
             },
             "line": 9,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 3630865530,
+              "duration": 4933347821,
               "status": "passed"
             },
             "line": 10,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 51348495,
+              "duration": 56576016,
               "status": "passed"
             },
             "line": 11,
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1184927626,
+              "duration": 847520099,
               "status": "passed"
             },
             "line": 8,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 101864136,
+              "duration": 143010174,
               "status": "passed"
             },
             "line": 9,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 3084238246,
+              "duration": 2259751327,
               "status": "passed"
             },
             "line": 10,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 79038600,
+              "duration": 49293668,
               "status": "passed"
             },
             "line": 11,
@@ -162,4 +162,4 @@
     "uri": "file:features/india/global_footer_links.feature",
     "tags": []
   }
-]]
+]

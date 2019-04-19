@@ -51,7 +51,7 @@ public class HomePageIndiaPageFactory extends BasePage {
 	}
 	
 	public boolean verifyLoadedURL(String URL) {
-		System.out.println(driver.getCurrentUrl());
+		logger.info("Loaded URL: " + URL);
 		return driver.getCurrentUrl().equals(URL);
 	}
 	
